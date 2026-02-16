@@ -26,7 +26,7 @@
 
     // Load React app bundle
     const appScript = document.createElement("script");
-    appScript.src = "https://yourdomain.com/commentApp.js";
+    appScript.src = "/commentApp.js";
     appScript.async = true;
 
     appScript.onload = function () {
