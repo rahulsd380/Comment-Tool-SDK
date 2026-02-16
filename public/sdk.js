@@ -26,7 +26,7 @@
 
     // Load React app bundle
     const appScript = document.createElement("script");
-    appScript.src = "/commentApp.js";
+    appScript.src = "https://comment-tool-sdk.vercel.app/commentApp.js";
     appScript.async = true;
 
     appScript.onload = function () {
