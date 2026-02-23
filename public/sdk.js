@@ -27,7 +27,7 @@ container.style.left = "0";
 container.style.width = "100%";
 container.style.height = document.documentElement.scrollHeight + "px";
 container.style.zIndex = "999999";
-container.style.pointerEvents = "auto";
+container.style.pointerEvents = "none";
 
 document.body.appendChild(container);
 
