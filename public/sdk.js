@@ -19,10 +19,17 @@
 
     // Create container
     const container = document.createElement("div");
-    container.id = "comment-tool-root";
-    container.style.position = "relative";
-    container.style.zIndex = "999999";
-    document.body.appendChild(container);
+container.id = "comment-tool-root";
+
+container.style.position = "absolute";
+container.style.top = "0";
+container.style.left = "0";
+container.style.width = "100%";
+container.style.height = document.documentElement.scrollHeight + "px";
+container.style.zIndex = "999999";
+container.style.pointerEvents = "auto";
+
+document.body.appendChild(container);
 
     // Load React app bundle
     const appScript = document.createElement("script");
